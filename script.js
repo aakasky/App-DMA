@@ -13,7 +13,7 @@ function loadData(records = []) {
     table_data += `<td>${records[i].age}</td>`;
     table_data += `<td>${records[i].city}</td>`;
     table_data += `<td>`;
-    table_data += `<a href="edit.html?id=${records[i]._id}"><button class="btn btn-success">Edit</button></a>`;
+    table_data += `<a href="edit.html?id=${records[i]._id}"><button class="btn btn-info">Edit</button></a>`;
     table_data += "&nbsp;&nbsp;";
     table_data += `<button class="btn btn-danger" onclick=deleteData('${records[i]._id}')>Delete</button>`;
     table_data += `</td>`;
